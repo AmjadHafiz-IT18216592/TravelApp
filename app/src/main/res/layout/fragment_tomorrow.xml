@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tomorrow">
+
+<!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="302dp"
+        android:layout_height="81dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="clip_horizontal"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="163dp"
+        android:layout_height="82dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="clip_horizontal"
+        android:text="23  C"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <TextView
+        android:id="@+id/text_view8"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="clip_horizontal"
+        android:text="o"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_view2"
+        app:layout_constraintEnd_toEndOf="@+id/text_view2"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toStartOf="@+id/text_view2"
+        app:layout_constraintTop_toTopOf="@+id/text_view2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="clip_horizontal"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334" />
+
+
+    <TextView
+        android:id="@+id/text_view7"
+        android:layout_width="252dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="clip_horizontal"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:src="@drawable/cloudy"
+        app:layout_constraintBottom_toTopOf="@+id/text_view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/text_view2"
+        app:layout_constraintTop_toBottomOf="@+id/text_view"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="125dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="216dp"
+        android:fontFamily="@font/fira_sans"
+        android:text="Sunny day"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="90dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginRight="256dp"
+        android:fontFamily="@font/fira_sans"
+        android:text="Last Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_view7"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="126dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="24dp"
+        android:text="wind : 120Km/s"
+        android:fontFamily="@font/fira_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="126dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/fira_sans"
+        android:text="pressure : 30Pa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.064" />
+</androidx.constraintlayout.widget.ConstraintLayout>

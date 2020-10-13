@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".today">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="310dp"
+        android:layout_height="89dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="clip_horizontal"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_view2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="171dp"
+        android:layout_height="82dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="clip_horizontal"
+        android:text="28  C"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <TextView
+        android:id="@+id/text_view8"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="clip_horizontal"
+        android:text="o"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_view2"
+        app:layout_constraintEnd_toEndOf="@+id/text_view2"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/text_view2"
+        app:layout_constraintTop_toTopOf="@+id/text_view2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_view3"
+        android:layout_width="222dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="clip_horizontal"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <TextView
+        android:id="@+id/text_view4"
+        android:layout_width="260dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/fira_sans"
+        android:gravity="clip_horizontal"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:src="@drawable/sunny"
+        app:layout_constraintBottom_toTopOf="@+id/text_view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toEndOf="@+id/text_view2"
+        app:layout_constraintTop_toBottomOf="@+id/text_view"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="125dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="208dp"
+        android:fontFamily="@font/fira_sans"
+        android:text="Sunny day"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="92dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/fira_sans"
+        android:text="Last Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="126dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="24dp"
+        android:text="wind : 120Km/s"
+        android:fontFamily="@font/fira_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="126dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="84dp"
+        android:text="pressure : 30Pa"
+        android:fontFamily="@font/fira_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.064" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
